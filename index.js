@@ -10,7 +10,7 @@ app.get('/countdown', (req, res) => {
   const response = {
     schemaVersion: 1,
     label: 'Countdown to end',
-    message: `${daysToEnd} days until completion`, 
+    message: `${daysToEnd} days until military service is completed`, 
     color: daysToEnd <= 30 ? 'red' : 'green', 
   };
 
